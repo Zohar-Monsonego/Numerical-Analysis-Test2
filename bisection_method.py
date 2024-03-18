@@ -59,11 +59,11 @@ def bisection_method(f, a, b, tol=1e-6):
 
 
 if __name__ == '__main__':
-    f = lambda x: x ** 2 - 4 * math.sin(x)
+    #f = lambda x:  x ** 3 + x ** 2 + b / b * x - e
     a = 1
     b = 5
-    roots = bisection_method(f, a, b)
-    print(bcolors.OKBLUE, f"\nThe equation f(x) has an approximate root at x = {roots}", bcolors.ENDC, )
+    #roots = bisection_method(f, a, b)
+    #print(bcolors.OKBLUE, f"\nThe equation f(x) has an approximate root at x = {roots}", bcolors.ENDC, )
 
 
     print("Finds roots with the iterative method: \n")
